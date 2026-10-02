@@ -106,7 +106,7 @@ def e4(tags):
             ax[j].fill_between(x, np.percentile(M, 10, 0), np.percentile(M, 90, 0), color=C[i], alpha=0.15, lw=0)
         x = np.arange(1, 41 if j < 2 else 301)
         ax[j].plot(x, [dsr_required_t(n) for n in x], "--", color=C[7], lw=1, label="DSR-required $t$")
-        ax[j].plot(x, [stats.norm.isf(0.05 / n) for n in x], ":", color=INK2, lw=1, label="sealed-verdict bar")
+        ax[j].plot(x, [stats.t.isf(0.05 / (n + 1), df=3268) for n in x], ":", color=INK2, lw=1, label="sealed-verdict bar")
         ax[j].set(xlabel="holdout queries", title=title)
         ax[j].legend(fontsize=6.5, loc="lower right")
     ax[0].set_ylabel("best validation $t$ so far")
@@ -116,7 +116,11 @@ def e4(tags):
 
 def e5(tags):
     out = {}
-    fig, ax = plt.subplots(1, len(tags), figsize=(2.6 * len(tags), 2.6), sharey=True)
+    ncol = math.ceil(len(tags) / 2)
+    fig, axs = plt.subplots(2, ncol, figsize=(2.2 * ncol, 4.8), sharey=True)
+    ax = axs.ravel()
+    for a in ax[len(tags):]:
+        a.axis("off")
     rows = []
     for p, tag in enumerate(tags):
         path = RES / f"exp5_{tag}_ledger.jsonl"
@@ -128,7 +132,7 @@ def e5(tags):
         b = df.groupby(df.step // 10)[["sr_train", "sr_val", "sr_test"]].mean()
         x = b.index * 10
         poolf = RES / f"exp5_{tag}_pool.jsonl"
-        if tag.endswith("valpool") and poolf.exists():
+        if "valpool" in tag and poolf.exists():
             P = pd.DataFrame([json.loads(l) for l in open(poolf)])
             b = P.groupby(P.call // 10)[["sr_val", "sr_test"]].last()
             b["sr_train"] = np.nan
@@ -136,15 +140,17 @@ def e5(tags):
         for i, (col, lab_) in enumerate([("sr_train", "train"), ("sr_val", "validation"), ("sr_test", "test")]):
             ax[p].plot(x, b[col], color=[INK2, C[0], C[1]][i], label=lab_)
         ax[p].axhline(0, color=GRID, lw=1)
-        _, data, rew = tag.split("_")
-        ax[p].set(title=f"{data} data, reward = {'val. pool' if rew == 'valpool' else rew}", xlabel="GRPO step")
+        _, data, rew = tag.split("_")[:3]
+        sd = {"s2": ", s2", "s3": ", s3"}.get(tag.split("_")[-1], "")
+        ax[p].set_title(f"{data}, {'pool' if rew == 'valpool' else rew}{sd}", fontsize=8)
+        ax[p].set_xlabel("GRPO step", fontsize=7)
         # reported strategy: best by the reward split among distinct portfolios
         df["key"] = df.w.apply(lambda w: json.dumps(w, sort_keys=True))
         dd = df.drop_duplicates("key")
         best = dd.loc[dd["sr_" + ("val" if rew == "valpool" else rew)].idxmax()]
         u = universe(data, 0) if data == "actual" else None
         if data == "null":
-            r = np.random.default_rng(1000)
+            r = np.random.default_rng({"s2": 1001, "s3": 1002}.get(tag.split("_")[-1], 1000))
             u = SignalUniverse(NAMES, {s: stationary_bootstrap_null(S[s], r) for s in ("train", "val", "test")})
         def vec(wd):
             v = np.zeros(len(NAMES))
@@ -187,13 +193,14 @@ def e5(tags):
     print(t.round(3).to_string())
     t.to_csv(RES / "exp5_summary.csv", index=False)
     lines = [r"\begin{table}[t]\centering\small",
-             r"\caption{\textbf{E5.} GRPO on Qwen2.5-1.5B, 300 steps $\times$ 32 completions. Reported strategy: the best distinct portfolio by the reward split. Validation-reward runs are certified by ledger DSR over all distinct portfolios; the pool run reports the final pool, with the ledger comprising all distinct portfolios and pool states; train-reward runs by the sealed verdict over the 40 best-by-train portfolios.}\label{tab:e5}",
+             r"\caption{\textbf{E5.} GRPO on Qwen2.5-1.5B, 300 steps $\times$ 32 completions; s2 and s3 are additional seeds (fresh null replicate and RL seed). Reported strategy: the best distinct portfolio by the reward split. Validation-reward runs are certified by ledger DSR over all distinct portfolios; the pool run reports the final pool, with the ledger comprising all distinct portfolios and pool states; train-reward runs by the sealed verdict over the 40 best-by-train portfolios.}\label{tab:e5}",
              r"\begin{tabular}{ll ccc cc}\toprule",
              r"data & reward & distinct portfolios & val.\ $t$ & test $t$ & DSR & certified\\\midrule"]
     for _, r in t.iterrows():
         dsr = "--" if np.isnan(r.dsr) else f"{r.dsr:.3f}"
         rw = {"val": "validation", "train": "train (sealed)", "valpool": "validation pool"}[r.reward]
-        lines.append(f"{r.data} & {rw} & {r.distinct} & {r.t_val:.2f} & {r.t_test:+.2f} & {dsr} & {'yes' if r.certified else 'no'}\\\\")
+        sd = {"s2": " (s2)", "s3": " (s3)"}.get(r.run.split("_")[-1], "")
+        lines.append(f"{r.data} & {rw}{sd} & {r.distinct} & {r.t_val:.2f} & {r.t_test:+.2f} & {dsr} & {'yes' if r.certified else 'no'}\\\\")
     lines += [r"\bottomrule\end{tabular}\end{table}"]
     (TAB / "e5.tex").write_text("\n".join(lines) + "\n")
 
@@ -203,5 +210,7 @@ if __name__ == "__main__":
     if what in ("e4", "both"):
         e4(["qwen7b", "qwen72b", "qwen72b_batch"])
     if what in ("e5", "both"):
-        e5([t for t in ["grpo_null_val", "grpo_null_train", "grpo_null_valpool", "grpo_actual_val", "grpo_actual_train"]
+        e5([t for t in ["grpo_null_val", "grpo_null_val_s2", "grpo_null_val_s3", "grpo_null_train",
+                        "grpo_null_valpool", "grpo_null_valpool_s2", "grpo_null_valpool_s3",
+                        "grpo_actual_val", "grpo_actual_train"]
             if (RES / f"exp5_{t}_ledger.jsonl").exists()])

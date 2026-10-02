@@ -1,0 +1,15 @@
+{"q": 1, "w": {"hold_FabPr": 0.1, "tsmom_Mines_252": 0.1, "ma_Mines_50_200": 0.1, "tsmom_Coal_63": 0.1, "ma_Coal_21_63": 0.1, "hold_Oil": 0.1, "tsmom_PerSv_5": 0.1, "tsmom_PerSv_21": 0.1, "ma_PerSv_5_21": 0.1, "tsmom_Meals_126": 0.1}, "verdict": "FAIL"}
+{"q": 2, "w": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}, "verdict": "FAIL"}
+{"q": 3, "w": {"hold_FabPr": 0.1, "tsmom_Mines_252": 0.1, "ma_Mines_50_200": 0.1, "tsmom_Coal_63": 0.1, "ma_Coal_21_63": 0.1, "hold_Oil": 0.1, "tsmom_PerSv_5": 0.1, "tsmom_PerSv_21": 0.1, "ma_PerSv_5_21": 0.1, "tsmom_Meals_126": 0.1}, "verdict": "FAIL"}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"submit": {"hold_FabPr": 0.125, "tsmom_Mines_252": 0.125, "tsmom_Coal_63": 0.125, "ma_Coal_21_63": 0.125, "hold_Oil": 0.125, "tsmom_PerSv_5": 0.125, "ma_PerSv_5_21": 0.125, "tsmom_Meals_126": 0.125}}
+{"end": true, "seed": 13679550277902688740, "mode": "sealed", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 3}

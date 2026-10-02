@@ -1,0 +1,14 @@
+{"q": 1, "w": {"tsmom_Agric_63": 0.06666666666666667, "tsmom_Fun_21": 0.06666666666666667, "ma_Fun_5_21": 0.06666666666666667, "tsmom_Rubbr_5": 0.06666666666666667, "tsmom_Rubbr_126": 0.06666666666666667, "hold_Cnstr": 0.06666666666666667, "hold_Mach": 0.06666666666666667, "tsmom_Aero_21": 0.06666666666666667, "tsmom_Aero_63": 0.06666666666666667, "ma_Aero_5_21": 0.06666666666666667, "ma_Aero_21_63": 0.06666666666666667, "tsmom_Telcm_21": 0.06666666666666667, "hold_PerSv": 0.06666666666666667, "tsmom_Insur_5": 0.06666666666666667, "hold_Other": 0.06666666666666667}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Rubbr_5": 0.2, "hold_Mach": 0.2, "tsmom_Aero_21": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Telcm_21": 0.2}}
+{"submit": {"tsmom_Agric_5": 0.2, "tsmom_Agric_21": 0.2, "tsmom_Agric_63": 0.2, "tsmom_Agric_126": 0.2, "tsmom_Agric_252": 0.2}}
+{"submit": {"tsmom_Agric_5": 0.2, "tsmom_Agric_21": 0.2, "tsmom_Agric_63": 0.2, "tsmom_Agric_126": 0.2, "tsmom_Agric_252": 0.2}}
+{"submit": {"tsmom_Agric_5": 0.2, "tsmom_Agric_21": 0.2, "tsmom_Agric_63": 0.2, "tsmom_Agric_126": 0.2, "tsmom_Agric_252": 0.2}}
+{"submit": {"tsmom_Agric_5": 0.2, "tsmom_Agric_21": 0.2, "tsmom_Agric_63": 0.2, "tsmom_Agric_126": 0.2, "tsmom_Agric_252": 0.2}}
+{"end": true, "seed": 1247423201433826815, "mode": "naive", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 1}

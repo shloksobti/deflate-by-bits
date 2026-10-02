@@ -1,10 +1,14 @@
 \begin{table}[t]\centering\small
-\caption{\textbf{E5.} GRPO on Qwen2.5-1.5B, 300 steps $\times$ 32 completions. Reported strategy: the best distinct portfolio by the reward split. Validation-reward runs are certified by ledger DSR over all distinct portfolios; the pool run reports the final pool, with the ledger comprising all distinct portfolios and pool states; train-reward runs by the sealed verdict over the 40 best-by-train portfolios.}\label{tab:e5}
+\caption{\textbf{E5.} GRPO on Qwen2.5-1.5B, 300 steps $\times$ 32 completions; s2 and s3 are additional seeds (fresh null replicate and RL seed). Reported strategy: the best distinct portfolio by the reward split. Validation-reward runs are certified by ledger DSR over all distinct portfolios; the pool run reports the final pool, with the ledger comprising all distinct portfolios and pool states; train-reward runs by the sealed verdict over the 40 best-by-train portfolios.}\label{tab:e5}
 \begin{tabular}{ll ccc cc}\toprule
 data & reward & distinct portfolios & val.\ $t$ & test $t$ & DSR & certified\\\midrule
 null & validation & 200 & 3.87 & +0.40 & 0.680 & no\\
+null & validation (s2) & 2450 & 2.48 & +0.28 & 0.522 & no\\
+null & validation (s3) & 364 & 2.34 & -0.61 & 0.339 & no\\
 null & train (sealed) & 106 & -0.57 & -0.22 & -- & no\\
 null & validation pool & 300 & 4.12 & +0.74 & 0.763 & no\\
+null & validation pool (s2) & 202 & 2.86 & -0.38 & 0.695 & no\\
+null & validation pool (s3) & 9201 & 12.01 & -0.56 & 1.000 & yes\\
 actual & validation & 1409 & 5.00 & -0.26 & 0.948 & no\\
 actual & train (sealed) & 3151 & 0.10 & +0.13 & -- & no\\
 \bottomrule\end{tabular}\end{table}

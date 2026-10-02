@@ -1,0 +1,12 @@
+{"tag": "claude_opus_optimize_naive_6", "mode": "naive", "seconds": 37, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_6", "mode": "sealed", "seconds": 29, "rc": 0}
+{"tag": "claude_opus_optimize_naive_7", "mode": "naive", "seconds": 34, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_7", "mode": "sealed", "seconds": 46, "rc": 0}
+{"tag": "claude_opus_optimize_naive_8", "mode": "naive", "seconds": 44, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_8", "mode": "sealed", "seconds": 51, "rc": 0}
+{"tag": "claude_opus_optimize_naive_9", "mode": "naive", "seconds": 42, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_9", "mode": "sealed", "seconds": 30, "rc": 0}
+{"tag": "claude_opus_optimize_naive_10", "mode": "naive", "seconds": 37, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_10", "mode": "sealed", "seconds": 35, "rc": 0}
+{"tag": "claude_opus_optimize_naive_11", "mode": "naive", "seconds": 30, "rc": 0}
+{"tag": "claude_opus_optimize_sealed_11", "mode": "sealed", "seconds": 52, "rc": 0}

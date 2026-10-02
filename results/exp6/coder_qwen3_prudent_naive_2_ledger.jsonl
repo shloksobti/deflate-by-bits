@@ -1,0 +1,30 @@
+{"q": 1, "w": {"hold_Food": 0.2, "hold_Soda": 0.2, "tsmom_Mach_21": 0.2, "tsmom_Mach_252": 0.2, "ma_Mach_21_63": 0.2}}
+{"q": 2, "w": {"hold_Food": 0.2, "hold_Soda": 0.2, "tsmom_Mach_21": 0.2, "tsmom_Mach_252": 0.2, "ma_Mach_21_63": 0.2}}
+{"q": 3, "w": {"tsmom_Mach_252": 1.0}}
+{"q": 4, "w": {"hold_Soda": 0.3333333333333333, "tsmom_Mach_252": 0.3333333333333333, "ma_Mach_21_63": 0.3333333333333333}}
+{"q": 5, "w": {"tsmom_Mach_252": 1.0}}
+{"q": 6, "w": {"ma_Mach_21_63": 1.0}}
+{"q": 7, "w": {"hold_Soda": 1.0}}
+{"q": 8, "w": {"tsmom_Mach_21": 1.0}}
+{"q": 9, "w": {"hold_Food": 1.0}}
+{"q": 10, "w": {"tsmom_MedEq_252": 1.0}}
+{"q": 11, "w": {"ma_MedEq_5_21": 1.0}}
+{"q": 12, "w": {"tsmom_Trans_5": 1.0}}
+{"q": 13, "w": {"hold_Hshld": 1.0}}
+{"q": 14, "w": {"tsmom_Mach_5": 1.0}}
+{"q": 15, "w": {"tsmom_MedEq_252": 0.3333333333333333, "ma_MedEq_5_21": 0.3333333333333333, "tsmom_Trans_5": 0.3333333333333333}}
+{"q": 16, "w": {"ma_MedEq_5_21": 0.5, "tsmom_Trans_5": 0.5}}
+{"q": 17, "w": {"tsmom_MedEq_252": 0.5, "tsmom_Trans_5": 0.5}}
+{"q": 18, "w": {"tsmom_MedEq_252": 0.3333333333333333, "ma_MedEq_5_21": 0.3333333333333333, "tsmom_Trans_5": 0.3333333333333333}}
+{"q": 19, "w": {"tsmom_Mach_252": 0.5, "tsmom_Trans_5": 0.5}}
+{"q": 20, "w": {"ma_Mach_21_63": 0.5, "tsmom_Trans_5": 0.5}}
+{"q": 21, "w": {"hold_Soda": 0.3333333333333333, "tsmom_MedEq_252": 0.3333333333333333, "tsmom_Trans_5": 0.3333333333333333}}
+{"q": 22, "w": {"hold_Soda": 0.3333333333333333, "ma_MedEq_5_21": 0.3333333333333333, "tsmom_Trans_5": 0.3333333333333333}}
+{"q": 23, "w": {"ma_MedEq_5_21": 0.3333333333333333, "tsmom_Mach_252": 0.3333333333333333, "tsmom_Trans_5": 0.3333333333333333}}
+{"q": 24, "w": {"ma_MedEq_5_21": 0.2, "tsmom_Mach_252": 0.3, "tsmom_Trans_5": 0.5}}
+{"q": 25, "w": {"ma_MedEq_5_21": 0.2, "tsmom_Mach_252": 0.4, "tsmom_Trans_5": 0.4}}
+{"q": 26, "w": {"ma_MedEq_5_21": 0.4, "tsmom_Mach_252": 0.3, "tsmom_Trans_5": 0.3}}
+{"q": 27, "w": {"ma_MedEq_5_21": 0.3, "tsmom_Mach_252": 0.3, "tsmom_Trans_5": 0.4}}
+{"q": 28, "w": {"ma_MedEq_5_21": 0.3, "tsmom_Mach_252": 0.2, "tsmom_Trans_5": 0.5}}
+{"submit": {"ma_MedEq_5_21": 0.3, "tsmom_Mach_252": 0.2, "tsmom_Trans_5": 0.5}}
+{"end": true, "seed": 4659555560553612207, "mode": "naive", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 28}

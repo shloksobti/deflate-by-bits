@@ -23,7 +23,7 @@ def main(model, data, reward_split, tag, max_steps=300):
     R = base_library()
     S = split(R)
     if data == "null":
-        r = np.random.default_rng(1000)
+        r = np.random.default_rng(int(__import__("os").environ.get("NULL_SEED", "1000")))
         S = {s: stationary_bootstrap_null(S[s], r) for s in ("train", "val", "test")}
     uni = SignalUniverse(list(R.columns), S)
     sysmsg = system_prompt(uni, "naive", 1).replace(
@@ -82,7 +82,7 @@ def main(model, data, reward_split, tag, max_steps=300):
                      gradient_accumulation_steps=1, max_completion_length=320,
                      max_steps=max_steps, logging_steps=5, bf16=True, beta=0.0,
                      temperature=1.0, report_to="none", save_strategy="no",
-                     gradient_checkpointing=True, seed=0)
+                     gradient_checkpointing=True, seed=int(__import__("os").environ.get("RL_SEED", "0")))
     lora = LoraConfig(r=32, lora_alpha=64, target_modules="all-linear", task_type="CAUSAL_LM")
     tr = GRPOTrainer(model=model, reward_funcs=reward, args=cfg, train_dataset=ds,
                      peft_config=lora)

@@ -8,8 +8,10 @@ Deflated Sharpe Ratios Fail Under Adaptive Search, and a Sealed-Holdout Remedy"*
 the researcher is adaptive: a "combine what worked" ensemble over k pure-noise strategies
 reaches validation t ~ sqrt(2k/pi), versus a DSR bar of ~ sqrt(2 ln k). Certifying by the
 *information the holdout reveals* (log |transcripts|) is valid for any analyst; a sealed
-PASS/FAIL holdout with budget K costs only log K. LLM agents and GRPO alpha miners show the
-combine-the-winners behaviour but, at current scale, search too inefficiently to beat DSR.
+PASS/FAIL holdout with budget K costs only log K. Claude Opus, instructed to maximise validation
+Sharpe, executes the attack autonomously (validation t up to 15.7 on pure noise) and is certified by
+ledger DSR under optional stopping; a GRPO miner with a pool reward learns the same ensemble and is
+DSR-certified. The sealed verdict stays valid throughout, including across adaptive campaigns.
 
 ## Layout
 | path | what |
@@ -22,7 +24,9 @@ combine-the-winners behaviour but, at current scale, search too inefficiently to
 | `experiments/exp3_real.py` | E3: real data + 300 bootstrap-null replicates |
 | `experiments/exp4_llm_agent.py` | E4: Qwen2.5 7B/72B research agents via vLLM (GPU) |
 | `experiments/exp5_grpo.py` | E5: GRPO alpha mining with validation / train / pool rewards (GPU) |
-| `experiments/figures.py`, `tables.py`, `analyze_e4e5.py` | figures and LaTeX tables |
+| `experiments/exp6_server.py`, `exp6_claude.py`, `exp6_coder.py` | E6: sealed research server; Claude Code and open-weight coder agents |
+| `experiments/exp7_campaign.py` | E7: multi-round campaigns sharing one holdout (independent and adaptive) |
+| `experiments/figures.py`, `tables.py`, `analyze_e4e5.py`, `analyze_e6.py` | figures and LaTeX tables |
 | `experiments/gpu/` | GPU job scripts used for E4/E5 |
 | `scripts/get_data.sh` | downloads the Ken French data into `data/` |
 | `results/` | raw CSV/JSONL outputs and logs |
@@ -34,6 +38,8 @@ scripts/get_data.sh   # Ken French daily data (paper used the CRSP 2026-08 vinta
 .venv/bin/python experiments/exp1_attack_vs_dsr.py
 .venv/bin/python experiments/exp2_channels.py 500
 .venv/bin/python experiments/exp3_real.py 300
+.venv/bin/python experiments/exp7_campaign.py 500
+E6_OBJECTIVES=prudent,metric,optimize .venv/bin/python experiments/exp6_claude.py 6 sonnet 3   # needs Claude Code
 # GPU (vLLM + TRL): see experiments/gpu/; ran on 1x AMD MI325X, ROCm 7.14, vLLM 0.23, TRL 1.14
 .venv/bin/python experiments/figures.py && .venv/bin/python experiments/tables.py && .venv/bin/python experiments/analyze_e4e5.py
 cd paper && tectonic main.tex

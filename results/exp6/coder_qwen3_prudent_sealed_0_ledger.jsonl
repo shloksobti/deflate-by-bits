@@ -1,0 +1,25 @@
+{"q": 1, "w": {"tsmom_Food_126": 0.125, "tsmom_Drugs_5": 0.125, "tsmom_Cnstr_126": 0.125, "tsmom_Mach_63": 0.125, "ma_Mach_5_21": 0.125, "ma_Mach_21_63": 0.125, "hold_Util": 0.125, "ma_LabEq_5_21": 0.125}, "verdict": "FAIL"}
+{"q": 2, "w": {"tsmom_Food_126": 0.1, "tsmom_Drugs_5": 0.1, "tsmom_Cnstr_126": 0.1, "ma_Cnstr_50_200": 0.1, "tsmom_Mach_63": 0.1, "ma_Mach_5_21": 0.1, "ma_Mach_21_63": 0.1, "hold_Util": 0.1, "ma_LabEq_5_21": 0.1, "ma_Insur_50_200": 0.1}, "verdict": "FAIL"}
+{"q": 3, "w": {"tsmom_Cnstr_126": 0.3333333333333333, "tsmom_Mach_63": 0.3333333333333333, "hold_Util": 0.3333333333333333}, "verdict": "FAIL"}
+{"q": 4, "w": {"tsmom_Cnstr_126": 0.3333333333333333, "tsmom_Mach_63": 0.3333333333333333, "hold_Util": 0.3333333333333333}, "verdict": "FAIL"}
+{"submit": {"tsmom_Cnstr_126": 0.3333333333333333, "tsmom_Mach_63": 0.3333333333333333, "hold_Util": 0.3333333333333333}}
+{"q": 5, "w": {"tsmom_Cnstr_126": 0.5, "hold_Util": 0.5}, "verdict": "FAIL"}
+{"submit": {"tsmom_Cnstr_126": 0.5, "hold_Util": 0.5}}
+{"q": 6, "w": {"hold_Agric": 0.14285714285714288, "tsmom_Agric_5": 0.14285714285714288, "tsmom_Agric_21": 0.14285714285714288, "tsmom_Agric_63": 0.14285714285714288, "ma_Agric_5_21": 0.14285714285714288, "ma_Agric_21_63": 0.14285714285714288, "hold_Food": 0.14285714285714288}, "verdict": "FAIL"}
+{"submit": {"hold_Agric": 0.14285714285714288, "tsmom_Agric_5": 0.14285714285714288, "tsmom_Agric_21": 0.14285714285714288, "tsmom_Agric_63": 0.14285714285714288, "ma_Agric_5_21": 0.14285714285714288, "ma_Agric_21_63": 0.14285714285714288, "hold_Food": 0.14285714285714288}}
+{"q": 7, "w": {"hold_Agric": 0.3333333333333333, "hold_Food": 0.3333333333333333, "hold_Soda": 0.3333333333333333}, "verdict": "FAIL"}
+{"submit": {"hold_Agric": 0.3333333333333333, "hold_Food": 0.3333333333333333, "hold_Soda": 0.3333333333333333}}
+{"q": 8, "w": {"hold_Util": 1.0}, "verdict": "FAIL"}
+{"submit": {"hold_Util": 1.0}}
+{"q": 9, "w": {"tsmom_Agric_5": 0.1, "tsmom_Agric_21": 0.1, "tsmom_Agric_63": 0.1, "tsmom_Agric_126": 0.1, "tsmom_Agric_252": 0.1, "hold_Food": 0.1, "ma_Food_21_63": 0.1, "hold_Soda": 0.1, "hold_Beer": 0.1, "hold_Smoke": 0.1}, "verdict": "FAIL"}
+{"submit": {"tsmom_Agric_5": 0.1, "tsmom_Agric_21": 0.1, "tsmom_Agric_63": 0.1, "tsmom_Agric_126": 0.1, "tsmom_Agric_252": 0.1, "hold_Food": 0.1, "ma_Food_21_63": 0.1, "hold_Soda": 0.1, "hold_Beer": 0.1, "hold_Smoke": 0.1}}
+{"q": 10, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"submit": {"hold_Agric": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"submit": {"hold_Util": 1.0}}
+{"end": true, "seed": 4956509368864321494, "mode": "sealed", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 10}

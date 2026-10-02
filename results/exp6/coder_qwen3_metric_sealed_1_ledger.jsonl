@@ -1,0 +1,13 @@
+{"q": 1, "w": {"hold_Fun": 0.05, "ma_Books_5_21": 0.05, "hold_BldMt": 0.05, "tsmom_Guns_5": 0.05, "tsmom_Guns_21": 0.05, "tsmom_Guns_63": 0.05, "hold_BusSv": 0.05, "ma_Hardw_5_21": 0.05, "hold_LabEq": 0.05, "tsmom_Trans_63": 0.05, "tsmom_Trans_126": 0.05, "tsmom_Trans_252": 0.05, "ma_Trans_50_200": 0.05, "tsmom_Whlsl_63": 0.05, "ma_Whlsl_21_63": 0.05, "hold_Rtail": 0.05, "ma_Rtail_5_21": 0.05, "hold_Meals": 0.05, "tsmom_Other_63": 0.05, "ma_Other_21_63": 0.05}, "verdict": "FAIL"}
+{"q": 2, "w": {"hold_Fun": 0.05, "ma_Books_5_21": 0.05, "hold_BldMt": 0.05, "tsmom_Guns_5": 0.05, "tsmom_Guns_21": 0.05, "tsmom_Guns_63": 0.05, "hold_BusSv": 0.05, "ma_Hardw_5_21": 0.05, "hold_LabEq": 0.05, "tsmom_Trans_63": 0.05, "tsmom_Trans_126": 0.05, "tsmom_Trans_252": 0.05, "ma_Trans_50_200": 0.05, "tsmom_Whlsl_63": 0.05, "ma_Whlsl_21_63": 0.05, "hold_Rtail": 0.05, "ma_Rtail_5_21": 0.05, "hold_Meals": 0.05, "tsmom_Other_63": 0.05, "ma_Other_21_63": 0.05}, "verdict": "FAIL"}
+{"q": 3, "w": {"hold_Agric": 0.1, "tsmom_Agric_5": 0.1, "tsmom_Agric_21": 0.1, "tsmom_Agric_63": 0.1, "tsmom_Agric_126": 0.1, "tsmom_Agric_252": 0.1, "ma_Agric_5_21": 0.1, "ma_Agric_21_63": 0.1, "ma_Agric_50_200": 0.1, "hold_Food": 0.1}, "verdict": "FAIL"}
+{"q": 4, "w": {"hold_Agric": 0.33333333333333337, "tsmom_Agric_5": 0.33333333333333337, "tsmom_Agric_21": 0.33333333333333337}, "verdict": "FAIL"}
+{"q": 5, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"q": 6, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"q": 7, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"q": 8, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"q": 9, "w": {"hold_Agric": 0.3333333333333333, "tsmom_Agric_5": 0.3333333333333333, "tsmom_Agric_21": 0.3333333333333333}, "verdict": "FAIL"}
+{"q": 10, "w": {"hold_Agric": 1.0}, "verdict": "FAIL"}
+{"q": 11, "w": {"tsmom_Agric_21": 1.0}, "verdict": "FAIL"}
+{"q": 12, "w": {"hold_Agric": 0.33333333333333337, "tsmom_Agric_21": 0.33333333333333337, "tsmom_Agric_63": 0.33333333333333337}, "verdict": "FAIL"}
+{"end": true, "seed": 1339765896407180835, "mode": "sealed", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 12}

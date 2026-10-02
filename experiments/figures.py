@@ -112,7 +112,57 @@ def fig3():
     fig.savefig(FIG / "fig3_real.pdf")
 
 
+
+
+
+def fig6():
+    """E6: optional stopping. Best-so-far validation t and ledger DSR along each Opus
+    'optimize' search that made >100 queries."""
+    tr = sorted((RES / "exp6" / "traj").glob("claude_opus_optimize_naive_*.json"))
+    tr = [(p, json.load(open(p))) for p in tr]
+    tr = [(p, t) for p, t in tr if len(t) > 100]
+    fig, ax = plt.subplots(1, 2, figsize=(8.6, 2.8))
+    for i, (p, t) in enumerate(tr):
+        q = np.array([x[0] for x in t]); bt_ = np.array([x[1] for x in t]); d = np.array([x[3] for x in t])
+        col = C[i % 8]
+        ax[0].plot(q, bt_, color=col, lw=1.2)
+        ax[1].plot(q, d, color=col, lw=1.2)
+    ax[0].axhline(23.38, color=INK2, ls=":", lw=1); ax[0].text(3.2, 21.6, "span bound 23.4", fontsize=7, color=INK2)
+    ax[0].axvline(423, color=GRID, lw=1); ax[1].axvline(423, color=GRID, lw=1)
+    ax[1].axhline(0.95, color=C[7], ls="--", lw=1); ax[1].text(3.2, 0.86, "certification bar 0.95", fontsize=7, color=C[7])
+    ax[0].set(xscale="log", xlabel="holdout queries made so far", ylabel="best validation $t$ so far",
+              title="(a) Opus search on pure noise")
+    ax[1].set(xscale="log", xlabel="holdout queries made so far", ylabel="ledger DSR of best so far",
+              title="(b) DSR if the agent stopped here", ylim=(-0.03, 1.03))
+    fig.tight_layout(); fig.savefig(FIG / "fig6_opus.pdf")
+
+
+def fig7():
+    d = pd.read_csv(RES / "exp7.csv")
+    g = d.groupby(["scenario", "R", "mu", "protocol", "rep"]).false_cert.any().groupby(["scenario", "R", "mu", "protocol"]).mean()
+    pw = d[(d.mu > 0) & d.signal].groupby(["scenario", "R", "protocol"]).true_cert.mean()
+    curves = [("adaptive", "naive_dsr", "adaptive: full Sharpe + cum. DSR", C[7], "-"),
+              ("adaptive", "bonf", "adaptive: full Sharpe + Bonferroni", C[1], "-"),
+              ("adaptive", "sealed", "adaptive: sealed verdict (ours)", C[2], "-"),
+              ("independent", "split_vault", "independent: split vault", C[0], "--"),
+              ("independent", "bonf", "independent: Bonferroni = sealed", INK2, "--")]
+    Rs = sorted(d.R.unique())
+    fig, ax = plt.subplots(1, 2, figsize=(8.6, 2.9))
+    for sc, k, l, c, ls in curves:
+        ax[0].plot(Rs, [g.loc[(sc, r, 0.0, k)] for r in Rs], marker="o", ms=3, color=c, ls=ls, label=l)
+        ax[1].plot(Rs, [pw.loc[(sc, r, k)] for r in Rs], marker="o", ms=3, color=c, ls=ls, label=l)
+    ax[0].axhline(0.05, color=INK2, lw=0.8, ls=":")
+    ax[0].set(xscale="log", xlabel="research rounds sharing one holdout ($R$)", ylabel="P(any false certification)",
+              title="(a) campaign family-wise error (global null)", ylim=(-0.03, 1.03))
+    ax[1].set(xscale="log", xlabel="research rounds sharing one holdout ($R$)", ylabel="power per genuine round",
+              title="(b) campaign power", ylim=(-0.03, 1.03))
+    for a in ax:
+        a.set_xticks(Rs, [str(r) for r in Rs])
+    ax[1].legend(fontsize=6.3, loc="lower left")
+    fig.tight_layout(); fig.savefig(FIG / "fig7_campaign.pdf")
+
+
 if __name__ == "__main__":
     FIG.mkdir(exist_ok=True)
-    fig1(); fig2(); fig3()
+    fig1(); fig2(); fig3(); fig6(); fig7()
     print("ok")

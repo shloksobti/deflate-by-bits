@@ -1,0 +1,18 @@
+{"q": 1, "w": {"hold_Agric": 0.5, "tsmom_Agric_5": -0.5}}
+{"q": 2, "w": {"tsmom_Agric_21": 0.05, "tsmom_Agric_252": 0.05, "tsmom_Food_63": 0.05, "tsmom_Food_252": 0.05, "ma_Food_21_63": 0.05, "ma_Food_50_200": 0.05, "tsmom_Drugs_252": 0.05, "ma_Drugs_50_200": 0.05, "tsmom_Mach_126": 0.05, "ma_Mach_21_63": 0.05, "tsmom_Aero_21": 0.05, "ma_Guns_5_21": 0.05, "tsmom_Gold_126": 0.05, "ma_Gold_50_200": 0.05, "tsmom_Mines_126": 0.05, "ma_Mines_50_200": 0.05, "ma_Coal_5_21": 0.05, "hold_Hardw": 0.05, "tsmom_LabEq_126": 0.05, "hold_Meals": 0.05}}
+{"q": 3, "w": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"q": 4, "w": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.5, "ma_Food_50_200": 0.5}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"submit": {"tsmom_Food_63": 0.2, "tsmom_Food_252": 0.2, "ma_Food_50_200": 0.2, "tsmom_Drugs_252": 0.2, "ma_Guns_5_21": 0.2}}
+{"end": true, "seed": 18372191253080300187, "mode": "naive", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 4}

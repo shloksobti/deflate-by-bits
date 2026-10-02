@@ -1,0 +1,186 @@
+{"q": 1, "w": {"hold_Agric": 1.0}}
+{"q": 2, "w": {"hold_Agric": 1.0}}
+{"q": 3, "w": {"hold_Food": 1.0}}
+{"q": 4, "w": {"hold_Soda": 1.0}}
+{"q": 5, "w": {"hold_Beer": 1.0}}
+{"q": 6, "w": {"hold_Smoke": 1.0}}
+{"q": 7, "w": {"tsmom_Agric_21": 1.0}}
+{"q": 8, "w": {"tsmom_Food_21": 1.0}}
+{"q": 9, "w": {"tsmom_Soda_21": 1.0}}
+{"q": 10, "w": {"tsmom_Beer_21": 1.0}}
+{"q": 11, "w": {"tsmom_Smoke_21": 1.0}}
+{"q": 12, "w": {"hold_Agric": 1.0}}
+{"q": 13, "w": {"hold_Agric": 1.0}}
+{"q": 14, "w": {"hold_Food": 1.0}}
+{"q": 15, "w": {"hold_Soda": 1.0}}
+{"q": 16, "w": {"tsmom_Agric_21": 1.0}}
+{"q": 17, "w": {"tsmom_Food_21": 1.0}}
+{"q": 18, "w": {"hold_Agric": 1.0}}
+{"q": 19, "w": {"hold_Food": 1.0}}
+{"q": 20, "w": {"hold_Soda": 1.0}}
+{"q": 21, "w": {"hold_Beer": 1.0}}
+{"q": 22, "w": {"hold_Smoke": 1.0}}
+{"q": 23, "w": {"hold_Toys": 1.0}}
+{"q": 24, "w": {"hold_Fun": 1.0}}
+{"q": 25, "w": {"hold_Books": 1.0}}
+{"q": 26, "w": {"hold_Hshld": 1.0}}
+{"q": 27, "w": {"hold_Clths": 1.0}}
+{"q": 28, "w": {"hold_MedEq": 1.0}}
+{"q": 29, "w": {"hold_Drugs": 1.0}}
+{"q": 30, "w": {"hold_Chems": 1.0}}
+{"q": 31, "w": {"hold_Rubbr": 1.0}}
+{"q": 32, "w": {"hold_Txtls": 1.0}}
+{"q": 33, "w": {"hold_BldMt": 1.0}}
+{"q": 34, "w": {"hold_Cnstr": 1.0}}
+{"q": 35, "w": {"hold_Steel": 1.0}}
+{"q": 36, "w": {"hold_FabPr": 1.0}}
+{"q": 37, "w": {"hold_Mach": 1.0}}
+{"q": 38, "w": {"hold_ElcEq": 1.0}}
+{"q": 39, "w": {"hold_Autos": 1.0}}
+{"q": 40, "w": {"hold_Aero": 1.0}}
+{"q": 41, "w": {"hold_Ships": 1.0}}
+{"q": 42, "w": {"hold_Guns": 1.0}}
+{"q": 43, "w": {"hold_Gold": 1.0}}
+{"q": 44, "w": {"hold_Mines": 1.0}}
+{"q": 45, "w": {"hold_Coal": 1.0}}
+{"q": 46, "w": {"hold_Oil": 1.0}}
+{"q": 47, "w": {"hold_Util": 1.0}}
+{"q": 48, "w": {"hold_Telcm": 1.0}}
+{"q": 49, "w": {"hold_PerSv": 1.0}}
+{"q": 50, "w": {"hold_BusSv": 1.0}}
+{"q": 51, "w": {"hold_Hardw": 1.0}}
+{"q": 52, "w": {"hold_Chips": 1.0}}
+{"q": 53, "w": {"hold_LabEq": 1.0}}
+{"q": 54, "w": {"hold_Paper": 1.0}}
+{"q": 55, "w": {"hold_Boxes": 1.0}}
+{"q": 56, "w": {"hold_Trans": 1.0}}
+{"q": 57, "w": {"hold_Whlsl": 1.0}}
+{"q": 58, "w": {"hold_Rtail": 1.0}}
+{"q": 59, "w": {"hold_Meals": 1.0}}
+{"q": 60, "w": {"hold_Banks": 1.0}}
+{"q": 61, "w": {"hold_Insur": 1.0}}
+{"q": 62, "w": {"hold_RlEst": 1.0}}
+{"q": 63, "w": {"hold_Fin": 1.0}}
+{"q": 64, "w": {"hold_Other": 1.0}}
+{"q": 65, "w": {"tsmom_Agric_21": 1.0}}
+{"q": 66, "w": {"tsmom_Food_21": 1.0}}
+{"q": 67, "w": {"tsmom_Soda_21": 1.0}}
+{"q": 68, "w": {"tsmom_Beer_21": 1.0}}
+{"q": 69, "w": {"tsmom_Smoke_21": 1.0}}
+{"q": 70, "w": {"tsmom_Toys_21": 1.0}}
+{"q": 71, "w": {"tsmom_Fun_21": 1.0}}
+{"q": 72, "w": {"tsmom_Books_21": 1.0}}
+{"q": 73, "w": {"tsmom_Hshld_21": 1.0}}
+{"q": 74, "w": {"tsmom_Clths_21": 1.0}}
+{"q": 75, "w": {"tsmom_MedEq_21": 1.0}}
+{"q": 76, "w": {"tsmom_Drugs_21": 1.0}}
+{"q": 77, "w": {"tsmom_Chems_21": 1.0}}
+{"q": 78, "w": {"tsmom_Rubbr_21": 1.0}}
+{"q": 79, "w": {"tsmom_Txtls_21": 1.0}}
+{"q": 80, "w": {"tsmom_BldMt_21": 1.0}}
+{"q": 81, "w": {"tsmom_Cnstr_21": 1.0}}
+{"q": 82, "w": {"tsmom_Steel_21": 1.0}}
+{"q": 83, "w": {"tsmom_FabPr_21": 1.0}}
+{"q": 84, "w": {"tsmom_Mach_21": 1.0}}
+{"q": 85, "w": {"tsmom_ElcEq_21": 1.0}}
+{"q": 86, "w": {"tsmom_Autos_21": 1.0}}
+{"q": 87, "w": {"tsmom_Aero_21": 1.0}}
+{"q": 88, "w": {"tsmom_Ships_21": 1.0}}
+{"q": 89, "w": {"tsmom_Guns_21": 1.0}}
+{"q": 90, "w": {"tsmom_Gold_21": 1.0}}
+{"q": 91, "w": {"tsmom_Mines_21": 1.0}}
+{"q": 92, "w": {"tsmom_Coal_21": 1.0}}
+{"q": 93, "w": {"tsmom_Oil_21": 1.0}}
+{"q": 94, "w": {"tsmom_Util_21": 1.0}}
+{"q": 95, "w": {"tsmom_Telcm_21": 1.0}}
+{"q": 96, "w": {"tsmom_PerSv_21": 1.0}}
+{"q": 97, "w": {"tsmom_BusSv_21": 1.0}}
+{"q": 98, "w": {"tsmom_Hardw_21": 1.0}}
+{"q": 99, "w": {"tsmom_Chips_21": 1.0}}
+{"q": 100, "w": {"tsmom_LabEq_21": 1.0}}
+{"q": 101, "w": {"tsmom_Paper_21": 1.0}}
+{"q": 102, "w": {"tsmom_Boxes_21": 1.0}}
+{"q": 103, "w": {"tsmom_Trans_21": 1.0}}
+{"q": 104, "w": {"tsmom_Whlsl_21": 1.0}}
+{"q": 105, "w": {"tsmom_Rtail_21": 1.0}}
+{"q": 106, "w": {"tsmom_Meals_21": 1.0}}
+{"q": 107, "w": {"tsmom_Banks_21": 1.0}}
+{"q": 108, "w": {"tsmom_Insur_21": 1.0}}
+{"q": 109, "w": {"tsmom_RlEst_21": 1.0}}
+{"q": 110, "w": {"tsmom_Fin_21": 1.0}}
+{"q": 111, "w": {"tsmom_Other_21": 1.0}}
+{"q": 112, "w": {"tsmom_Smoke_21": 0.5, "hold_Telcm": 0.5}}
+{"q": 113, "w": {"hold_Telcm": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 114, "w": {"hold_Telcm": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 115, "w": {"tsmom_Smoke_21": 0.5, "hold_Ships": 0.5}}
+{"q": 116, "w": {"hold_Ships": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 117, "w": {"hold_Ships": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 118, "w": {"tsmom_Smoke_21": 0.5, "hold_Chems": 0.5}}
+{"q": 119, "w": {"hold_Chems": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 120, "w": {"hold_Chems": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 121, "w": {"tsmom_Smoke_21": 0.5, "hold_FabPr": 0.5}}
+{"q": 122, "w": {"hold_FabPr": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 123, "w": {"hold_FabPr": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 124, "w": {"tsmom_Smoke_21": 0.5, "hold_Util": 0.5}}
+{"q": 125, "w": {"hold_Util": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 126, "w": {"hold_Util": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 127, "w": {"tsmom_Smoke_21": 0.4, "hold_Telcm": 0.6}}
+{"q": 128, "w": {"tsmom_Smoke_21": 0.4, "hold_Telcm": 0.6}}
+{"q": 129, "w": {"hold_Telcm": 0.6, "tsmom_Chips_21": 0.4}}
+{"q": 130, "w": {"tsmom_Smoke_21": 0.4, "hold_Ships": 0.6}}
+{"q": 131, "w": {"hold_Ships": 0.6, "tsmom_Chips_21": 0.4}}
+{"q": 132, "w": {"tsmom_Smoke_21": 0.4, "hold_Chems": 0.6}}
+{"q": 133, "w": {"hold_Chems": 0.6, "tsmom_Chips_21": 0.4}}
+{"q": 134, "w": {"tsmom_Smoke_21": 0.3, "hold_Ships": 0.3, "hold_Telcm": 0.4}}
+{"q": 135, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.5, "hold_Telcm": 0.3}}
+{"q": 136, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.4, "hold_Telcm": 0.4}}
+{"q": 137, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.3, "hold_Telcm": 0.5}}
+{"q": 138, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.5, "hold_Telcm": 0.2}}
+{"q": 139, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.4, "hold_Telcm": 0.3}}
+{"q": 140, "w": {"tsmom_Smoke_21": 0.4, "hold_Chems": 0.3, "hold_Telcm": 0.3}}
+{"q": 141, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.6, "hold_Telcm": 0.2}}
+{"q": 142, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.2, "hold_Telcm": 0.6}}
+{"q": 143, "w": {"tsmom_Smoke_21": 0.6, "hold_Chems": 0.2, "hold_Telcm": 0.2}}
+{"q": 144, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.4, "hold_Telcm": 0.3}}
+{"q": 145, "w": {"tsmom_Smoke_21": 0.5, "hold_Telcm": 0.5}}
+{"q": 146, "w": {"hold_Telcm": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 147, "w": {"hold_Telcm": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 148, "w": {"hold_Telcm": 0.5, "tsmom_LabEq_21": 0.5}}
+{"q": 149, "w": {"tsmom_Smoke_21": 0.5, "hold_Ships": 0.5}}
+{"q": 150, "w": {"hold_Ships": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 151, "w": {"hold_Ships": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 152, "w": {"hold_Ships": 0.5, "tsmom_LabEq_21": 0.5}}
+{"q": 153, "w": {"tsmom_Smoke_21": 0.5, "hold_Chems": 0.5}}
+{"q": 154, "w": {"hold_Chems": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 155, "w": {"hold_Chems": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 156, "w": {"hold_Chems": 0.5, "tsmom_LabEq_21": 0.5}}
+{"q": 157, "w": {"tsmom_Smoke_21": 0.5, "hold_FabPr": 0.5}}
+{"q": 158, "w": {"hold_FabPr": 0.5, "tsmom_Chips_21": 0.5}}
+{"q": 159, "w": {"hold_FabPr": 0.5, "tsmom_Fin_21": 0.5}}
+{"q": 160, "w": {"hold_FabPr": 0.5, "tsmom_LabEq_21": 0.5}}
+{"q": 161, "w": {"hold_Ships": 0.3, "hold_Telcm": 0.4, "tsmom_Fin_21": 0.3}}
+{"q": 162, "w": {"tsmom_Smoke_21": 0.6000000000000001, "hold_Chems": 0.2, "hold_Telcm": 0.2}}
+{"q": 163, "w": {"tsmom_Smoke_21": 0.5, "hold_Chems": 0.2, "hold_Telcm": 0.3}}
+{"q": 164, "w": {"tsmom_Smoke_21": 0.4, "hold_Chems": 0.2, "hold_Telcm": 0.4}}
+{"q": 165, "w": {"tsmom_Smoke_21": 0.30000000000000004, "hold_Chems": 0.2, "hold_Telcm": 0.5}}
+{"q": 166, "w": {"tsmom_Smoke_21": 0.20000000000000007, "hold_Chems": 0.2, "hold_Telcm": 0.6}}
+{"q": 167, "w": {"tsmom_Smoke_21": 0.49999999999999994, "hold_Chems": 0.3, "hold_Telcm": 0.2}}
+{"q": 168, "w": {"tsmom_Smoke_21": 0.39999999999999997, "hold_Chems": 0.3, "hold_Telcm": 0.3}}
+{"q": 169, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.30000000000000004, "hold_Telcm": 0.4000000000000001}}
+{"q": 170, "w": {"tsmom_Smoke_21": 0.19999999999999996, "hold_Chems": 0.3, "hold_Telcm": 0.5}}
+{"q": 171, "w": {"tsmom_Smoke_21": 0.09999999999999998, "hold_Chems": 0.3, "hold_Telcm": 0.6}}
+{"q": 172, "w": {"tsmom_Smoke_21": 0.39999999999999997, "hold_Chems": 0.4, "hold_Telcm": 0.2}}
+{"q": 173, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.4, "hold_Telcm": 0.3}}
+{"q": 174, "w": {"tsmom_Smoke_21": 0.19999999999999996, "hold_Chems": 0.4, "hold_Telcm": 0.4}}
+{"q": 175, "w": {"tsmom_Smoke_21": 0.09999999999999998, "hold_Chems": 0.4, "hold_Telcm": 0.5}}
+{"q": 176, "w": {"hold_Chems": 0.4, "hold_Telcm": 0.6}}
+{"q": 177, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.5, "hold_Telcm": 0.2}}
+{"q": 178, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.5, "hold_Telcm": 0.3}}
+{"q": 179, "w": {"tsmom_Smoke_21": 0.09999999999999998, "hold_Chems": 0.5, "hold_Telcm": 0.4}}
+{"q": 180, "w": {"hold_Chems": 0.5, "hold_Telcm": 0.5}}
+{"q": 181, "w": {"tsmom_Smoke_21": 0.2, "hold_Chems": 0.6, "hold_Telcm": 0.2}}
+{"q": 182, "w": {"tsmom_Smoke_21": 0.10000000000000003, "hold_Chems": 0.6, "hold_Telcm": 0.3}}
+{"q": 183, "w": {"hold_Chems": 0.6, "hold_Telcm": 0.4}}
+{"q": 184, "w": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.4, "hold_Telcm": 0.3}}
+{"submit": {"tsmom_Smoke_21": 0.3, "hold_Chems": 0.4, "hold_Telcm": 0.3}}
+{"end": true, "seed": 14864955788384376792, "mode": "naive", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 184}

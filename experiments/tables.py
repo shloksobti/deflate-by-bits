@@ -92,6 +92,35 @@ def e3():
     w("e3.tex", "\n".join(lines))
 
 
+
+
+def e7():
+    d = pd.read_csv(RES / "exp7.csv")
+    g = d.groupby(["scenario", "R", "mu", "protocol", "rep"]).false_cert.any().groupby(["scenario", "R", "mu", "protocol"]).mean()
+    pw = d[(d.mu > 0) & d.signal].groupby(["scenario", "R", "protocol"]).true_cert.mean()
+    Rs = sorted(d.R.unique())
+    rows = [("independent", "split_vault", "split vault"), ("independent", "bonf", "Bonferroni reuse = sealed verdict"),
+            ("adaptive", "naive_dsr", "full Sharpe + cumulative ledger DSR"), ("adaptive", "bonf", "full Sharpe + Bonferroni"),
+            ("adaptive", "sealed", "\\textbf{sealed verdict}")]
+    lines = [r"\begin{table}[t]\centering\small",
+             r"\caption{\textbf{E7.} Research campaigns of $R$ rounds sharing one holdout (500 campaigns per cell, 4 candidates per round for every protocol). Each cell gives the probability of at least one false certification under the global null, then the power per genuine round ($\mu=0.6$). \emph{Independent}: candidates use training data only, so Bonferroni reuse and the sealed verdict coincide. \emph{Adaptive}: researchers build on earlier holdout results; full-precision channels pick candidates by holdout Sharpe, while the sealed researcher sees only PASS/FAIL.}\label{tab:e7}",
+             r"\resizebox{\linewidth}{!}{\begin{tabular}{ll" + "c" * len(Rs) + r"}\toprule",
+             "campaign & protocol & " + " & ".join(f"$R={r}$" for r in Rs) + r"\\\midrule"]
+    prev = None
+    for sc, k, l in rows:
+        if prev and prev != sc:
+            lines.append(r"\midrule")
+        prev = sc
+        cells = []
+        for r in Rs:
+            f = g.loc[(sc, r, 0.0, k)]
+            fs = f"{f:.2f}" if f <= 0.1 else r"\textcolor{red!70!black}{" + f"{f:.2f}" + "}"
+            cells.append(f"{fs} / {pw.loc[(sc, r, k)]:.2f}")
+        lines.append(f"{sc} & {l} & " + " & ".join(cells) + r"\\")
+    lines += [r"\bottomrule\end{tabular}}\end{table}"]
+    w("e7.tex", "\n".join(lines))
+
+
 if __name__ == "__main__":
-    e1(); e2(); e3()
+    e1(); e2(); e3(); e7()
     print(sorted(p.name for p in TAB.iterdir()))

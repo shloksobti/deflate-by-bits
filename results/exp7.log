@@ -1,0 +1,42 @@
+independent R 1
+independent R 2
+independent R 5
+independent R 10
+independent R 20
+adaptive R 1
+adaptive R 2
+adaptive R 5
+adaptive R 10
+adaptive R 20
+mu                          FWER_null  FWER_partial  power
+scenario    R  protocol                                   
+adaptive    1  bonf             1.000         0.688  1.000
+               naive_dsr        0.206         0.100  0.852
+               sealed           0.020         0.018  0.787
+            2  bonf             1.000         0.678  1.000
+               naive_dsr        0.788         0.438  0.921
+               sealed           0.026         0.016  0.664
+            5  bonf             1.000         0.648  0.999
+               naive_dsr        1.000         0.478  0.966
+               sealed           0.022         0.010  0.653
+            10 bonf             1.000         0.682  0.996
+               naive_dsr        1.000         0.514  0.980
+               sealed           0.024         0.008  0.654
+            20 bonf             1.000         0.720  0.999
+               naive_dsr        1.000         0.538  0.989
+               sealed           0.012         0.010  0.693
+independent 1  bonf             0.026         0.030  0.804
+               sealed           0.026         0.030  0.804
+               split_vault      0.026         0.030  0.804
+            2  bonf             0.042         0.026  0.727
+               sealed           0.042         0.026  0.727
+               split_vault      0.044         0.044  0.438
+            5  bonf             0.050         0.042  0.595
+               sealed           0.050         0.042  0.595
+               split_vault      0.046         0.028  0.105
+            10 bonf             0.046         0.046  0.500
+               sealed           0.046         0.046  0.500
+               split_vault      0.034         0.038  0.033
+            20 bonf             0.038         0.022  0.448
+               sealed           0.038         0.022  0.448
+               split_vault      0.032         0.032  0.008

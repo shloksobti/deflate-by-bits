@@ -1,0 +1,31 @@
+\begin{table}[t]\centering\small
+\caption{\textbf{E6.} Code-executing research agents on fresh bootstrap-null data (every certification is false). ``Some stop'': the probability that ledger DSR (over at least 10 distinct trials) would have certified the best-so-far portfolio had the agent stopped after some query, i.e.\ under optional stopping. ``Non-adaptive baseline'': the same quantity for an equally long sequence of random portfolios fixed in advance, on the same data. The agents write and run Python against a sealed research server: the full-Sharpe channel allows up to 5{,}000 backtests, and the sealed verdict has $K=200$. ``Prudent'': asked for a portfolio that will hold up out of sample; ``metric'': told it will be judged by validation Sharpe; ``optimize'': instructed to maximise validation Sharpe with systematic searches. Models: claude-opus-5-5 and claude-sonnet-5-5 via Claude Code 2.1.287, run 2026-10-03. Queries are medians; $t$ statistics are means.}\label{tab:e6}
+\resizebox{\linewidth}{!}{\begin{tabular}{lll c cc ccc cc}\toprule
+agent & objective & channel & episodes & queries & distinct & P(cert.) & P(cert.\ some stop) & non-adaptive baseline & val.\ $t$ & test $t$\\\midrule
+Claude Opus & metric & full + DSR & 6 & 1 & 1 & 0.17 & 0.00 & 0.00 & -0.03 & +0.01\\
+Claude Opus & metric & sealed & 6 & 1 & 1 & 0.00 & -- & -- & 0.52 & +0.12\\
+\addlinespace
+Claude Opus & optimize & full + DSR & 12 & 1509 & 1448 & 0.08 & 0.33 & 0.00 & 7.43 & +0.30\\
+Claude Opus & optimize & sealed & 12 & 1 & 1 & 0.00 & -- & -- & -0.53 & +0.15\\
+\addlinespace
+Claude Opus & prudent & full + DSR & 6 & 9 & 9 & 0.00 & 0.00 & 0.00 & 1.07 & -0.25\\
+Claude Opus & prudent & sealed & 6 & 1 & 1 & 0.00 & -- & -- & 0.11 & -0.30\\
+\midrule
+Claude Sonnet & metric & full + DSR & 6 & 1 & 1 & 0.00 & 0.00 & 0.00 & 0.07 & +0.84\\
+Claude Sonnet & metric & sealed & 6 & 8 & 6 & 0.00 & -- & -- & -0.23 & -0.37\\
+\addlinespace
+Claude Sonnet & optimize & full + DSR & 6 & 10 & 6 & 0.00 & 0.00 & 0.00 & 0.51 & -0.02\\
+Claude Sonnet & optimize & sealed & 6 & 7 & 7 & 0.00 & -- & -- & -0.28 & -0.86\\
+\addlinespace
+Claude Sonnet & prudent & full + DSR & 6 & 14 & 13 & 0.00 & 0.00 & 0.00 & 1.29 & +0.03\\
+Claude Sonnet & prudent & sealed & 6 & 2 & 2 & 0.00 & -- & -- & -0.11 & +0.08\\
+\midrule
+Qwen3-Coder-30B & metric & full + DSR & 6 & 8 & 6 & 0.00 & 0.00 & 0.00 & 0.43 & +0.45\\
+Qwen3-Coder-30B & metric & sealed & 6 & 10 & 8 & 0.00 & -- & -- & -0.58 & -0.19\\
+\addlinespace
+Qwen3-Coder-30B & optimize & full + DSR & 6 & 4 & 2 & 0.00 & 0.00 & 0.00 & 0.12 & +0.28\\
+Qwen3-Coder-30B & optimize & sealed & 6 & 4 & 2 & 0.00 & -- & -- & -0.93 & -0.01\\
+\addlinespace
+Qwen3-Coder-30B & prudent & full + DSR & 6 & 18 & 14 & 0.00 & 0.00 & 0.00 & 0.72 & +0.28\\
+Qwen3-Coder-30B & prudent & sealed & 6 & 6 & 4 & 0.00 & -- & -- & -0.56 & -0.55\\
+\bottomrule\end{tabular}}\end{table}

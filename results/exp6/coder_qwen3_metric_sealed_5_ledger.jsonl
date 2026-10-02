@@ -1,0 +1,25 @@
+{"q": 1, "w": {"tsmom_Toys_5": 0.06666666666666667, "tsmom_Books_63": 0.06666666666666667, "tsmom_Chems_126": 0.06666666666666667, "tsmom_Chems_252": 0.06666666666666667, "ma_Chems_50_200": 0.06666666666666667, "tsmom_Telcm_63": 0.06666666666666667, "tsmom_Telcm_126": 0.06666666666666667, "ma_Telcm_21_63": 0.06666666666666667, "tsmom_PerSv_21": 0.06666666666666667, "tsmom_BusSv_63": 0.06666666666666667, "ma_BusSv_21_63": 0.06666666666666667, "hold_LabEq": 0.06666666666666667, "ma_Paper_50_200": 0.06666666666666667, "tsmom_Trans_252": 0.06666666666666667, "tsmom_Rtail_5": 0.06666666666666667}, "verdict": "FAIL"}
+{"q": 2, "w": {"tsmom_Toys_5": 0.05, "tsmom_Books_63": 0.05, "tsmom_Chems_126": 0.05, "tsmom_Chems_252": 0.05, "ma_Chems_50_200": 0.05, "ma_Txtls_5_21": 0.05, "ma_Steel_21_63": 0.05, "hold_Mach": 0.05, "tsmom_Telcm_63": 0.05, "tsmom_Telcm_126": 0.05, "ma_Telcm_21_63": 0.05, "tsmom_PerSv_21": 0.05, "tsmom_BusSv_63": 0.05, "ma_BusSv_21_63": 0.05, "ma_BusSv_50_200": 0.05, "hold_LabEq": 0.05, "tsmom_Paper_63": 0.05, "ma_Paper_50_200": 0.05, "tsmom_Trans_252": 0.05, "tsmom_Rtail_5": 0.05}, "verdict": "FAIL"}
+{"q": 3, "w": {"tsmom_Books_63": 0.1, "tsmom_Chems_252": 0.1, "ma_Chems_50_200": 0.1, "tsmom_Telcm_63": 0.1, "ma_Telcm_21_63": 0.1, "tsmom_PerSv_21": 0.1, "tsmom_BusSv_63": 0.1, "hold_LabEq": 0.1, "tsmom_Trans_252": 0.1, "tsmom_Rtail_5": 0.1}, "verdict": "FAIL"}
+{"q": 4, "w": {"tsmom_Toys_5": 0.2, "tsmom_Chems_126": 0.2, "hold_Mach": 0.2, "tsmom_Telcm_126": 0.2, "ma_BusSv_21_63": 0.2}, "verdict": "FAIL"}
+{"q": 5, "w": {"hold_Mach": 0.5, "tsmom_Telcm_126": 0.5}, "verdict": "FAIL"}
+{"submit": {"hold_Mach": 0.5, "tsmom_Telcm_126": 0.5}}
+{"q": 6, "w": {"tsmom_Chems_126": 0.3333333333333333, "hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333}, "verdict": "FAIL"}
+{"submit": {"tsmom_Chems_126": 0.3333333333333333, "hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333}}
+{"q": 7, "w": {"tsmom_Toys_5": 0.2, "tsmom_Chems_126": 0.2, "hold_Mach": 0.2, "tsmom_Telcm_126": 0.2, "ma_BusSv_21_63": 0.2}, "verdict": "FAIL"}
+{"q": 8, "w": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}, "verdict": "FAIL"}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"q": 9, "w": {"tsmom_Chems_252": 0.2, "tsmom_Telcm_63": 0.2, "tsmom_BusSv_63": 0.2, "hold_LabEq": 0.2, "tsmom_Trans_252": 0.2}, "verdict": "FAIL"}
+{"submit": {"tsmom_Chems_252": 0.2, "tsmom_Telcm_63": 0.2, "tsmom_BusSv_63": 0.2, "hold_LabEq": 0.2, "tsmom_Trans_252": 0.2}}
+{"q": 10, "w": {"hold_Mach": 1.0}, "verdict": "FAIL"}
+{"submit": {"hold_Mach": 1.0}}
+{"q": 11, "w": {"tsmom_Toys_5": 0.1, "tsmom_Chems_126": 0.1, "tsmom_Chems_252": 0.1, "ma_Txtls_5_21": 0.1, "ma_Steel_21_63": 0.1, "hold_Mach": 0.1, "tsmom_Telcm_126": 0.1, "ma_BusSv_21_63": 0.1, "ma_BusSv_50_200": 0.1, "tsmom_Paper_63": 0.1}, "verdict": "FAIL"}
+{"submit": {"tsmom_Toys_5": 0.1, "tsmom_Chems_126": 0.1, "tsmom_Chems_252": 0.1, "ma_Txtls_5_21": 0.1, "ma_Steel_21_63": 0.1, "hold_Mach": 0.1, "tsmom_Telcm_126": 0.1, "ma_BusSv_21_63": 0.1, "ma_BusSv_50_200": 0.1, "tsmom_Paper_63": 0.1}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"submit": {"hold_Mach": 0.3333333333333333, "tsmom_Telcm_126": 0.3333333333333333, "ma_BusSv_21_63": 0.3333333333333333}}
+{"end": true, "seed": 12423609176976652837, "mode": "sealed", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 11}

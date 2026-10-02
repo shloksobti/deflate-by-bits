@@ -1,0 +1,19 @@
+{"q": 1, "w": {"hold_Food": 0.05, "tsmom_Food_21": 0.05, "tsmom_Soda_21": 0.05, "tsmom_Toys_21": 0.05, "hold_Fun": 0.05, "tsmom_MedEq_21": 0.05, "hold_Chems": 0.05, "tsmom_BldMt_21": 0.05, "tsmom_Autos_21": 0.05, "hold_Aero": 0.05, "hold_Ships": 0.05, "hold_Chips": 0.05, "hold_LabEq": 0.05, "hold_Boxes": 0.05, "hold_Trans": 0.05, "tsmom_Trans_21": 0.05, "hold_Whlsl": 0.05, "tsmom_Rtail_21": 0.05, "tsmom_Insur_21": 0.05, "tsmom_RlEst_21": 0.05}}
+{"q": 2, "w": {"tsmom_Food_21": 0.2, "tsmom_Autos_21": 0.2, "hold_Trans": 0.2, "tsmom_Trans_21": 0.2, "tsmom_Rtail_21": 0.2}}
+{"q": 3, "w": {"tsmom_Food_21": 0.3333333333333333, "hold_Trans": 0.3333333333333333, "tsmom_Trans_21": 0.3333333333333333}}
+{"q": 4, "w": {"tsmom_Food_21": 0.1, "ma_Food_5_21": 0.1, "ma_Beer_50_200": 0.1, "tsmom_Hshld_5": 0.1, "tsmom_Mach_126": 0.1, "tsmom_Oil_5": 0.1, "hold_Chips": 0.1, "hold_Trans": 0.1, "hold_Whlsl": 0.1, "ma_Rtail_5_21": 0.1}}
+{"q": 5, "w": {"tsmom_Food_21": 0.2, "hold_Trans": 0.4, "tsmom_Trans_21": 0.2, "tsmom_Rtail_21": 0.2}}
+{"q": 6, "w": {"hold_Trans": 1.0}}
+{"q": 7, "w": {"tsmom_Food_21": 1.0}}
+{"q": 8, "w": {"tsmom_Food_21": 0.3, "hold_Trans": 0.3, "tsmom_Trans_21": 0.2, "tsmom_Rtail_21": 0.2}}
+{"q": 9, "w": {"hold_Trans": 1.0}}
+{"q": 10, "w": {"tsmom_Food_21": 0.125, "tsmom_Soda_21": 0.125, "tsmom_Autos_21": 0.125, "hold_Chips": 0.125, "hold_Trans": 0.125, "tsmom_Trans_21": 0.125, "hold_Whlsl": 0.125, "tsmom_Rtail_21": 0.125}}
+{"q": 11, "w": {"tsmom_Food_21": 0.16666666666666666, "hold_Chips": 0.16666666666666666, "hold_Trans": 0.16666666666666666, "tsmom_Trans_21": 0.16666666666666666, "hold_Whlsl": 0.16666666666666666, "tsmom_Rtail_21": 0.16666666666666666}}
+{"q": 12, "w": {"tsmom_Food_21": 0.1, "hold_Fun": 0.1, "tsmom_BldMt_21": 0.1, "hold_Aero": 0.1, "hold_Chips": 0.1, "hold_Trans": 0.1, "tsmom_Trans_21": 0.1, "hold_Whlsl": 0.1, "tsmom_Rtail_21": 0.1, "tsmom_RlEst_21": 0.1}}
+{"q": 13, "w": {"hold_Trans": 1.0}}
+{"q": 14, "w": {"tsmom_Food_21": 0.3333333333333333, "hold_Chips": 0.3333333333333333, "hold_Trans": 0.3333333333333333}}
+{"q": 15, "w": {"ma_Agric_5_21": 0.25, "tsmom_Food_21": 0.25, "hold_Trans": 0.25, "tsmom_Trans_21": 0.25}}
+{"q": 16, "w": {"ma_Agric_5_21": 0.25, "tsmom_Food_21": 0.25, "hold_Trans": 0.25, "tsmom_Trans_21": 0.25}}
+{"submit": {"ma_Agric_5_21": 0.25, "tsmom_Food_21": 0.25, "hold_Trans": 0.25, "tsmom_Trans_21": 0.25}}
+{"submit": {"ma_Agric_5_21": 0.25, "tsmom_Food_21": 0.25, "hold_Trans": 0.25, "tsmom_Trans_21": 0.25}}
+{"end": true, "seed": 13669751117184632466, "mode": "naive", "data": "null", "K": 200, "bar": 3.485591527215262, "queries": 16}
