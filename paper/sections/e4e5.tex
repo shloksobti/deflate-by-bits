@@ -1,0 +1,27 @@
+\subsection{E4 (exploratory): LLM research agents}
+We place open-weight instruction models, Qwen2.5-7B and Qwen2.5-72B \citep{qwen2024qwen25} served with vLLM, in the research loop over the 423 real strategies. Each turn the agent writes one sentence of reasoning and a JSON portfolio of up to 20 signals. It receives its training-period Sharpe (1970--1999) and either the validation Sharpe (status quo) or a sealed verdict. Each condition runs 8 episodes on actual data and 24 on null data. Every null episode uses its own bootstrap replicate, so its data are synthetic and pretraining knowledge of market history cannot help. We also give the 72B agent a \emph{batch tool} that evaluates up to 20 portfolios per turn for 15 turns, mimicking code-executing agents that run backtest sweeps. The status-quo report is the best-validation proposal, certified by ledger DSR over the \emph{distinct} proposals (duplicates are counted once, the convention used throughout).
+
+\input{tables/e4.tex}
+
+Table~\ref{tab:e4} and Figure~\ref{fig:agents} give a more nuanced picture than Theorem~\ref{thm:attack} alone. Qualitatively, the 72B agent does exactly what the theory describes. With the batch tool it writes, for example, \emph{``The combination of hold\_Aero and tsmom\_Aero\_63 shows the highest validation Sharpe. Testing further variations and adding other promising signals''}, and it grows an ensemble of validation winners turn by turn, which is greedy forward selection on the holdout. Quantitatively, today's agents are \emph{inefficient} adaptive analysts. The single-proposal agents converge within about 15 turns: the 7B model makes 19--22 distinct proposals in 40 turns and the 72B model 29--30, after which they resubmit near-identical portfolios. The batch agent uses its full 15 turns but submits only about 6 portfolios per turn rather than the 20 allowed, a median of about 70 queries (35 distinct) on the null. Their best null validation $t$ plateaus at 1.2--1.8, whereas the scripted greedy analyst of E1 reaches $t\approx4$--$6$ with a comparable number of queries (40--100). Ledger DSR therefore certified only 2 of 72 null status-quo episodes (2.8\%, both from single-proposal agents), within the nominal 5\%. Neither certification is driven by adaptivity. Both have validation $t$ ($2.64$ and $2.99$) at the Bonferroni bar for their number of distinct proposals, and are certified because highly correlated proposals shrink DSR's scale estimate ($nV=0.37$ and $0.11$). This is a second, non-adaptive weakness of ledger DSR (Corollary~\ref{cor:instances}(i)). On actual data one batch episode is certified (validation $t=3.30$, DSR $0.99$, $nV=0.21$) and then has test $t=-0.63$ over 2013--2026.
+
+The honest reading is that \emph{chat-style} LLM agents do not yet exploit a holdout within a single session. The adaptive capacity is there for any agent that searches more efficiently, for example by writing code, running for longer, or being trained to search. The sealed verdict made no false certifications in any condition and costs nothing in these settings.
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{../figures/fig4_agents.pdf}
+\caption{\textbf{E4.} Best validation $t$ found so far by LLM agents under the full-Sharpe channel (mean and 10--90\% band over episodes), against the $t$ that ledger DSR requires and the sealed-verdict bar for the same number of queries.}
+\label{fig:agents}
+\end{figure}
+
+\subsection{E5 (exploratory): RL alpha mining with GRPO}
+RL alpha miners optimise a backtest metric directly \citep{yu2023alphagen}, which makes them the most aggressive adaptive analysts in practice. We fine-tune Qwen2.5-1.5B-Instruct with GRPO \citep{shao2024deepseekmath} (LoRA rank 32, learning rate $5\times10^{-5}$, 300 steps $\times$ 32 completions $=9{,}600$ scored portfolios). The policy emits one JSON portfolio per completion, and invalid outputs receive $-1$. We compare three rewards: the portfolio's validation Sharpe (\emph{val}); its training Sharpe with the holdout sealed (\emph{train}); and an AlphaGen-style \emph{pool} reward, the marginal improvement in validation Sharpe of a growing combined portfolio, into which the batch's best improver is merged each step \citep{yu2023alphagen}. The pool reward is the RL analogue of Theorem~\ref{thm:attack}.
+
+\input{tables/e5.tex}
+
+\input{sections/e5_results.tex}
+
+\begin{figure}[t]
+\centering\includegraphics[width=\linewidth]{../figures/fig5_grpo.pdf}
+\caption{\textbf{E5.} Mean annualised Sharpe of sampled portfolios on the training, validation and test splits during GRPO training (10-step bins).}
+\label{fig:grpo}
+\end{figure}

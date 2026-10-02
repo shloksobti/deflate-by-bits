@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+data/*.csv
+data/*.zip
+ckpt/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+figures/*.png
+paper/main_v1_agentic_framing.tex

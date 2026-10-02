@@ -1,0 +1,96 @@
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 2, "w": {"tsmom_BldMt_63": 0.6667, "ma_BldMt_5_21": 0.3333}, "sr_train": 0.055013653953894764, "sr_val": 0.34022790070591435, "sr_test": -0.1453029811929667}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"ma_Other_21_63": 1.0}, "sr_train": 0.026145741072074787, "sr_val": 0.2836532592975518, "sr_test": -0.020643105266864258}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 3, "w": {"hold_Aero": 0.3333, "tsmom_Aero_63": 0.3333, "ma_Aero_21_63": 0.3333}, "sr_train": -0.021658828057205436, "sr_val": 0.780145209214166, "sr_test": 0.16454235577108825}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_63": 1.0}, "sr_train": 0.01000134302472778, "sr_val": 0.4187476291467303, "sr_test": 0.0242787656082779}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Chems_21": 1.0}, "sr_train": -0.2094542097077642, "sr_val": -0.0005667276203829729, "sr_test": -0.49733810471762924}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_21": 1.0}, "sr_train": 0.3260474193678003, "sr_val": 0.16764820845345554, "sr_test": -0.05742940099751336}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 2, "w": {"tsmom_Mines_252": 0.5, "ma_Mines_50_200": 0.5}, "sr_train": -0.038500268772416385, "sr_val": -0.2274360555068769, "sr_test": -0.29962102176875544}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 2, "w": {"ma_Oil_50_200": 0.75, "tsmom_Banks_63": 0.25}, "sr_train": 0.14046805967893522, "sr_val": -0.24605692622641342, "sr_test": -0.08991294962467515}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_63": 1.0}, "sr_train": 0.01000134302472778, "sr_val": 0.4187476291467303, "sr_test": 0.0242787656082779}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_63": 1.0}, "sr_train": 0.01000134302472778, "sr_val": 0.4187476291467303, "sr_test": 0.0242787656082779}
+{"call": 0, "valid": false}
+{"call": 0, "valid": true, "n_signals": 2, "w": {"ma_Aero_21_63": 0.625, "ma_Banks_50_200": 0.375}, "sr_train": -0.15359847365219545, "sr_val": 0.5131994831061116, "sr_test": 0.07787782100579824}
+{"call": 0, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_63": 1.0}, "sr_train": 0.01000134302472778, "sr_val": 0.4187476291467303, "sr_test": 0.0242787656082779}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 2, "w": {"ma_Paper_21_63": 0.5, "tsmom_Banks_63": 0.5}, "sr_train": -0.16698517165930954, "sr_val": -0.32761595180141045, "sr_test": -0.08459145165826076}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"hold_Aero": 1.0}, "sr_train": -0.020890721775355198, "sr_val": 0.5571586931140011, "sr_test": 0.05032606301888332}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"tsmom_Food_21": 1.0}, "sr_train": -0.2420419376785702, "sr_val": -0.26529929230087196, "sr_test": 0.06503589446901117}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 5, "w": {"tsmom_Fun_63": 0.2, "tsmom_Hshld_21": 0.2, "tsmom_Aero_126": 0.2, "ma_Aero_21_63": 0.2, "tsmom_Gold_21": 0.2}, "sr_train": 0.16046936177347915, "sr_val": 0.3482310000277891, "sr_test": -0.27079494192081044}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 2, "w": {"tsmom_Aero_63": 0.5, "ma_Oil_50_200": 0.5}, "sr_train": 0.1265626383633454, "sr_val": 0.16389351447766645, "sr_test": -0.05078362771129724}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 2, "w": {"tsmom_Oil_63": 0.5, "ma_Oil_50_200": 0.5}, "sr_train": 0.0424017866001353, "sr_val": -0.0018607910618002805, "sr_test": -0.17116999294431048}
+{"call": 1, "valid": true, "n_signals": 2, "w": {"ma_Oil_50_200": 0.3333, "tsmom_Banks_63": 0.6667}, "sr_train": -0.0029997424469682217, "sr_val": -0.4605325788904382, "sr_test": -0.07953293396888678}
+{"call": 1, "valid": true, "n_signals": 2, "w": {"tsmom_Aero_63": 0.5, "ma_Aero_21_63": 0.5}, "sr_train": -0.0127071741914575, "sr_val": 0.6062331770006838, "sr_test": 0.144955631460906}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"ma_Oil_50_200": 1.0}, "sr_train": 0.17597743198088137, "sr_val": -0.11232003618272073, "sr_test": -0.08673452939397415}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_21": 1.0}, "sr_train": 0.3260474193678003, "sr_val": 0.16764820845345554, "sr_test": -0.05742940099751336}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 4, "w": {"tsmom_Aero_63": 0.3279, "ma_Aero_21_63": 0.2623, "tsmom_Fin_21": -0.3115, "ma_Fin_50_200": -0.0984}, "sr_train": 0.017752293672503833, "sr_val": 0.2936374545392604, "sr_test": 0.14275631127919267}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": false}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_5": 1.0}, "sr_train": 0.1596350847829509, "sr_val": 0.7691754529643313, "sr_test": -0.12561258791089722}
+{"call": 1, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_21": 1.0}, "sr_train": 0.3260474193678003, "sr_val": 0.16764820845345554, "sr_test": -0.05742940099751336}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"tsmom_Oil_21": 1.0}, "sr_train": -0.23782367386323408, "sr_val": 0.14963344037773554, "sr_test": -0.5034409364872268}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"tsmom_Aero_21": 1.0}, "sr_train": 0.3260474193678003, "sr_val": 0.16764820845345554, "sr_test": -0.05742940099751336}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"ma_Oil_50_200": -1.0}, "sr_train": -0.17597743198088137, "sr_val": 0.11232003618272073, "sr_test": 0.08673452939397415}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 2, "w": {"tsmom_Banks_63": 0.6667, "ma_Banks_50_200": 0.3333}, "sr_train": -0.21049300020133435, "sr_val": -0.3939847271458571, "sr_test": -0.16157058355515558}
+{"call": 2, "valid": true, "n_signals": 3, "w": {"ma_Aero_21_63": 0.1429, "ma_Oil_50_200": 0.2857, "tsmom_Banks_63": 0.5714}, "sr_train": -0.012063084132843967, "sr_val": -0.31322815343441274, "sr_test": -0.01998040076268488}
+{"call": 2, "valid": true, "n_signals": 2, "w": {"tsmom_Aero_252": 0.6667, "ma_Banks_50_200": 0.3333}, "sr_train": -0.17878601464183702, "sr_val": 0.25599826653522584, "sr_test": 0.2554908416112879}
+{"call": 2, "valid": true, "n_signals": 2, "w": {"tsmom_Food_252": 0.5, "tsmom_Aero_63": -0.5}, "sr_train": -0.24047342408684586, "sr_val": -0.4952883265771947, "sr_test": -0.06009501724716306}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 6, "w": {"tsmom_Chems_63": 0.1695, "ma_FabPr_21_63": 0.1695, "tsmom_Aero_126": 0.1695, "ma_Mines_50_200": 0.2034, "tsmom_Hardw_126": 0.1695, "tsmom_Rtail_63": 0.1186}, "sr_train": -0.27723264527679276, "sr_val": -0.17974175945605936, "sr_test": -0.4619620144946545}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"ma_Oil_50_200": 1.0}, "sr_train": 0.17597743198088137, "sr_val": -0.11232003618272073, "sr_test": -0.08673452939397415}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"hold_Autos": 1.0}, "sr_train": -0.052204354536817994, "sr_val": 0.08964486061282434, "sr_test": -0.1134977963879243}
+{"call": 2, "valid": true, "n_signals": 5, "w": {"hold_BldMt": 0.2083, "hold_Aero": 0.2083, "ma_Aero_21_63": 0.2083, "ma_Aero_50_200": 0.1667, "hold_Oil": 0.2083}, "sr_train": 0.16274015145570603, "sr_val": 0.4239243128203014, "sr_test": 0.09413130194030436}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 3, "w": {"tsmom_Insur_252": 0.303, "ma_Insur_50_200": 0.2424, "tsmom_Fin_126": 0.4545}, "sr_train": 0.013568843129700109, "sr_val": -0.02676811291030678, "sr_test": -0.45279976737498984}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"hold_Aero": 1.0}, "sr_train": -0.020890721775355198, "sr_val": 0.5571586931140011, "sr_test": 0.05032606301888332}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"ma_Oil_50_200": 1.0}, "sr_train": 0.17597743198088137, "sr_val": -0.11232003618272073, "sr_test": -0.08673452939397415}
+{"call": 2, "valid": false}
+{"call": 2, "valid": true, "n_signals": 1, "w": {"ma_Oil_50_200": 1.0}, "sr_train": 0.17597743198088137, "sr_val": -0.11232003618272073, "sr_test": -0.08673452939397415}

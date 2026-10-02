@@ -1,0 +1,10 @@
+\begin{table}[h]\centering\small
+\caption{E1 details ($\rho=0$, 200 replicates): mean validation $t$ / mean test $t$ / P(ledger DSR$>0.95$).}\label{tab:e1}
+\begin{tabular}{lcccc}\toprule
+analyst & $k=10$ & $k=50$ & $k=100$ & $k=1000$\\\midrule
+best-of-$k$ & 1.6 / -0.10 / 0.00 & 2.3 / -0.03 / 0.00 & 2.5 / -0.06 / 0.00 & 3.2 / -0.01 / 0.00\\
+keep winners & 1.8 / +0.05 / 0.00 & 4.0 / +0.02 / 0.29 & 5.7 / +0.05 / 1.00 & 17.8 / -0.03 / 1.00\\
+sign flip & 2.6 / -0.02 / 0.00 & 5.7 / -0.06 / 1.00 & 8.0 / -0.08 / 1.00 & 25.2 / -0.00 / 1.00\\
+rank long--short & 2.4 / -0.02 / 0.00 & 5.6 / -0.09 / 1.00 & 7.9 / -0.06 / 1.00 & 25.2 / -0.01 / 1.00\\
+greedy forward & 2.4 / -0.02 / 0.16 & 6.2 / +0.05 / 0.76 & 8.9 / -0.01 / 0.95 & --\\
+\bottomrule\end{tabular}\end{table}

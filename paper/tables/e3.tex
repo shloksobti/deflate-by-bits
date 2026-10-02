@@ -1,0 +1,15 @@
+\begin{table}[t]\centering\small
+\caption{\textbf{E3.} 423 real hedged industry strategies. Null: false-certification rate over 300 stationary-bootstrap replicates (binomial s.e.\ in parentheses). Actual: validation (2000--2012) and test (2013--2026) $t$ of the reported strategy, and whether it was certified.}\label{tab:e3}
+\begin{tabular}{l c ccc}\toprule
+ & null & \multicolumn{3}{c}{actual data}\\\cmidrule(lr){3-5}
+workflow & P(certify) & val.\ $t$ & test $t$ & certified\\\midrule
+greedy + ledger DSR & 1.000 (0.000) & 15.23 & -0.76 & yes\\
+rank long--short + ledger DSR & 1.000 (0.000) & 9.96 & -0.02 & yes\\
+sign flip + ledger DSR & 1.000 (0.000) & 8.32 & +0.51 & yes\\
+top-$j$ + ledger DSR & 0.837 (0.021) & 7.06 & +0.53 & yes\\
+\midrule
+greedy + span bound & 0.000 (0.000) & 15.23 & -0.76 & no\\
+train vault & 0.037 (0.011) & 0.38 & +0.02 & no\\
+\textbf{sealed verdict} & 0.013 (0.007) & 0.38 & +0.02 & no\\
+\textbf{split + sealed verdict} & 0.027 (0.009) & 5.81 & +0.75 & no\\
+\bottomrule\end{tabular}\end{table}

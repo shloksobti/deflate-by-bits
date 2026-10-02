@@ -1,0 +1,112 @@
+mu=0.0 phi=1.0 66s
+mu=0.2 phi=1.0 119s
+mu=0.2 phi=0.5 169s
+mu=0.2 phi=0.0 212s
+mu=0.4 phi=1.0 250s
+mu=0.4 phi=0.5 289s
+mu=0.4 phi=0.0 329s
+mu=0.6 phi=1.0 357s
+mu=0.6 phi=0.5 392s
+mu=0.6 phi=0.0 431s
+                          certified  t_test_cert
+mu  phi channel                                 
+0.0 1.0 ladder3               0.000          NaN
+        naive_dsr             0.972        0.039
+        naive_span            0.002       -1.728
+        naive_topj_dsr        0.950       -0.007
+        split_vault           0.064        0.128
+        split_verdict         0.026        0.166
+        thresholdout          0.294       -0.045
+        train_vault           0.056       -0.283
+        verdict               0.030       -0.679
+        verdict_adaptive      0.008        0.223
+0.2 0.0 ladder3               0.000          NaN
+        naive_dsr             0.982        0.269
+        naive_span            0.000          NaN
+        naive_topj_dsr        0.996        0.517
+        split_vault           0.068        0.378
+        split_verdict         0.054        0.371
+        thresholdout          0.290       -0.041
+        train_vault           0.072        0.453
+        verdict               0.036        0.226
+        verdict_adaptive      0.004        0.025
+    0.5 ladder3               0.000          NaN
+        naive_dsr             0.986        0.364
+        naive_span            0.000          NaN
+        naive_topj_dsr        1.000        0.612
+        split_vault           0.094        0.562
+        split_verdict         0.062        0.274
+        thresholdout          0.294        0.196
+        train_vault           0.108        0.405
+        verdict               0.068        0.347
+        verdict_adaptive      0.016       -0.089
+    1.0 ladder3               0.004        0.846
+        naive_dsr             0.982        0.276
+        naive_span            0.000          NaN
+        naive_topj_dsr        0.996        0.560
+        split_vault           0.120        0.511
+        split_verdict         0.072        0.626
+        thresholdout          0.334        0.066
+        train_vault           0.130        0.665
+        verdict               0.090        0.526
+        verdict_adaptive      0.014       -0.196
+0.4 0.0 ladder3               0.014        0.867
+        naive_dsr             0.978        1.159
+        naive_span            0.006        1.242
+        naive_topj_dsr        1.000        1.721
+        split_vault           0.242        1.583
+        split_verdict         0.196        1.563
+        thresholdout          0.346        0.457
+        train_vault           0.124        0.530
+        verdict               0.064        0.461
+        verdict_adaptive      0.006        0.006
+    0.5 ladder3               0.010        0.512
+        naive_dsr             0.988        1.331
+        naive_span            0.002        1.792
+        naive_topj_dsr        1.000        1.795
+        split_vault           0.236        1.603
+        split_verdict         0.176        1.638
+        thresholdout          0.366        0.567
+        train_vault           0.280        1.343
+        verdict               0.210        1.488
+        verdict_adaptive      0.084        1.429
+    1.0 ladder3               0.010        0.561
+        naive_dsr             0.982        1.254
+        naive_span            0.004        0.327
+        naive_topj_dsr        1.000        1.697
+        split_vault           0.276        1.670
+        split_verdict         0.228        1.691
+        thresholdout          0.454        0.807
+        train_vault           0.526        1.868
+        verdict               0.472        1.967
+        verdict_adaptive      0.208        2.033
+0.6 0.0 ladder3               0.036        2.544
+        naive_dsr             0.992        2.257
+        naive_span            0.052        2.418
+        naive_topj_dsr        1.000        3.351
+        split_vault           0.592        2.915
+        split_verdict         0.542        2.903
+        thresholdout          0.360        0.964
+        train_vault           0.160        0.773
+        verdict               0.076        0.716
+        verdict_adaptive      0.044        1.055
+    0.5 ladder3               0.050        2.496
+        naive_dsr             0.992        2.218
+        naive_span            0.054        2.520
+        naive_topj_dsr        1.000        3.350
+        split_vault           0.580        2.796
+        split_verdict         0.540        2.872
+        thresholdout          0.492        1.119
+        train_vault           0.634        2.110
+        verdict               0.560        2.237
+        verdict_adaptive      0.328        2.377
+    1.0 ladder3               0.060        2.316
+        naive_dsr             0.986        2.218
+        naive_span            0.052        2.325
+        naive_topj_dsr        1.000        3.282
+        split_vault           0.604        2.792
+        split_verdict         0.484        2.907
+        thresholdout          0.680        1.569
+        train_vault           0.942        3.352
+        verdict               0.950        3.405
+        verdict_adaptive      0.824        3.489

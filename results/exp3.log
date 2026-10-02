@@ -1,0 +1,31 @@
+         workflow  certified  dsr   t_val  t_test  sr_test_ann
+0  naive_signflip       True  1.0   8.322   0.505        0.137
+1    naive_rankls       True  1.0   9.961  -0.019       -0.005
+2    naive_greedy       True  1.0  15.229  -0.762       -0.206
+3      naive_topj       True  1.0   7.061   0.525        0.142
+4     train_vault      False  NaN   0.378   0.025        0.007
+5         verdict      False  NaN   0.378   0.025        0.007
+6      naive_span      False  NaN  15.229  -0.762       -0.206
+7   split_verdict      False  NaN   5.806   0.745        0.202
+rep 0
+rep 25
+rep 50
+rep 75
+rep 100
+rep 125
+rep 150
+rep 175
+rep 200
+rep 225
+rep 250
+rep 275
+                certified   t_val  t_test
+workflow                                 
+naive_greedy        1.000  14.603   0.001
+naive_rankls        1.000   9.225   0.004
+naive_signflip      1.000   8.348   0.016
+naive_span          0.000  14.603   0.001
+naive_topj          0.837   5.405  -0.044
+split_verdict       0.027   3.727  -0.034
+train_vault         0.037  -0.009  -0.051
+verdict             0.013   0.011  -0.055
