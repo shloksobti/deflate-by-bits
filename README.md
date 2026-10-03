@@ -2,7 +2,7 @@
 
 Code, data pipeline and raw results for *"Deflate by Bits, Not Trials: Why Query-Counted
 Deflated Sharpe Ratios Fail Under Adaptive Search, and a Sealed-Holdout Remedy"*
-(Shlok Sobti, 2026; paper in `paper/main.pdf`).
+(Shlok Sobti, 2026). **Paper:** [SSRN 7557458](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557458) (also `paper/main.pdf`).
 
 **Claim.** Counting backtests run (Deflated Sharpe Ratio on a query ledger) is invalid when
 the researcher is adaptive: a "combine what worked" ensemble over k pure-noise strategies
@@ -51,7 +51,8 @@ cd paper && tectonic main.tex
   title  = {Deflate by Bits, Not Trials: Why Query-Counted Deflated Sharpe Ratios Fail Under Adaptive Search, and a Sealed-Holdout Remedy},
   author = {Sobti, Shlok},
   year   = {2026},
-  note   = {https://github.com/shloksobti/deflate-by-bits}
+  note   = {SSRN Working Paper 7557458},
+  url    = {https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7557458}
 }
 ```
 
